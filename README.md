@@ -1,3 +1,18 @@
+### 学习记录
+demo01: 简单的demo，bundle.js文件是生成的，可以通过直接打开index.html演示，也可以npm run dev来访问（此场景
+可以没有bundle.js文件）
+执行webpack main.js bundle.js报错：
+```
+ERROR in multi ./main.js bundle.js
+Module not found: Error: Can't resolve 'bundle.js' in 'D:\workspace\vue-projects\webpack-demos\demo01'
+ @ multi ./main.js bundle.js main[1]
+```
+执行webpack main.js -o bundle.js即可
+
+
+demo03: jsx文件是React文件， 这个demo没有编译过，有时间再回来看看
+
+-----------------------------------------------------------------------
 This repo is a collection of simple demos of Webpack.
 
 These demos are purposely written in a simple and clear style. You will find no difficulty in following them to learn the powerful tool.
